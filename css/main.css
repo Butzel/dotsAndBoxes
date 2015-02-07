@@ -1,0 +1,40 @@
+table {
+	border-collapse: collapse;
+	border: solid 2px #000000;
+}
+
+.main_cell {
+	border: solid 2px #000000;
+	background-color: #ffff00;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.upper_cell_wrap {
+	border: solid 2px #000000;
+	background-color: #ff8040;
+	width: 100px;
+	height: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.left_cell_wrap {
+	border: solid 2px #000000;
+	background-color: #ff8040;
+	width: 10px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.middle_cell {
+	border: solid 2px #000000;
+	background-color: #ff8040;
+	width: 10px;
+	height: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
