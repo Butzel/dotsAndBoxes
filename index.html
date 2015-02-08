@@ -13,10 +13,18 @@
 
 </head>
 <body>
-	<h1>Käsekästchen</h1>
-	<p>Alles Käse und quadratisch</p>
-	<script type="text/javascript">
-		drawTable();
-	</script>
+	<div>
+		<h1>Käsekästchen</h1>
+		<p>Alles Käse und quadratisch</p>
+	</div>
+	<div>
+		<form name="determineFieldSize" action="">
+			<p>Geben Sie eine Zahl ein. Dies bestimmt die Seitenlänge des
+				Spielfeldes.</p>
+			<input type="text" name="fieldSize"> <input type="button"
+				value="Spielfläche bestimmen"
+				onclick="drawTable(document.determineFieldSize.fieldSize.value)">
+		</form>
+	</div>
 </body>
 </html>
