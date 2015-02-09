@@ -1,4 +1,5 @@
 function drawTable(fieldSize) {
+	fieldSize++;
 	document.write('<table><tbody>');
 	for (var i = 0; i < fieldSize; i++) {
 		document.write('<tr>');
