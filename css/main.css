@@ -3,74 +3,74 @@
 	border: solid 2px #000000;
 }
 
-.main_cell {
+.mainCell {
 	border: solid 2px #000000;
 	background-color: #ffff00;
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	text-align: center;
 	vertical-align: middle;
 }
 
-.upper_cell_wrap {
+.upperCellWrap {
 	border: solid 2px #000000;
 	background-color: #ff8040;
-	width: 100px;
-	height: 10px;
+	width: 50px;
+	height: 5px;
 	text-align: center;
 	vertical-align: middle;
 }
 
-.upper_cell_wrap_used_player_one {
+.upperCellWrapUsedPlayerOne {
 	border: solid 2px #000000;
-	background-color: #ff00ff;
-	width: 100px;
-	height: 10px;
+	background-color: #8000ff;
+	width: 50px;
+	height: 5px;
 	text-align: center;
 	vertical-align: middle;
 }
 
-.upper_cell_wrap_used_plyer_two {
+.upperCellWrapUsedPlayerTwo {
 	border: solid 2px #000000;
-	background-color: #ff0000;
-	width: 100px;
-	height: 10px;
+	background-color: #008080;
+	width: 50px;
+	height: 5px;
 	text-align: center;
 	vertical-align: middle;
 }
 
-.left_cell_wrap {
+.leftCellWrap {
 	border: solid 2px #000000;
 	background-color: #ff8040;
-	width: 10px;
-	height: 100px;
+	width: 5px;
+	height: 50px;
 	text-align: center;
 	vertical-align: middle;
 }
 
-.left_cell_wrap_used_player_one {
+.leftCellWrapUsedPlayerOne {
 	border: solid 2px #000000;
-	background-color: #ff00ff;
-	width: 10px;
-	height: 100px;
+	background-color: #8000ff;
+	width: 5px;
+	height: 50px;
 	text-align: center;
 	vertical-align: middle;
 }
 
-.left_cell_wrap_used_player_two {
+.leftCellWrapUsedPlayerTwo {
 	border: solid 2px #000000;
-	background-color: #ff0000;
-	width: 10px;
-	height: 100px;
+	background-color: #008080;
+	width: 5px;
+	height: 50px;
 	text-align: center;
 	vertical-align: middle;
 }
 
-.middle_cell {
+.centerCell {
 	border: solid 2px #000000;
 	background-color: #000000;
-	width: 10px;
-	height: 10px;
+	width: 5px;
+	height: 5px;
 	text-align: center;
 	vertical-align: middle;
 }
