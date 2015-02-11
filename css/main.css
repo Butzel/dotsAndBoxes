@@ -1,4 +1,4 @@
-table {
+.gameField {
 	border-collapse: collapse;
 	border: solid 2px #000000;
 }
@@ -21,6 +21,24 @@ table {
 	vertical-align: middle;
 }
 
+.upper_cell_wrap_used_player_one {
+	border: solid 2px #000000;
+	background-color: #ff00ff;
+	width: 100px;
+	height: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.upper_cell_wrap_used_plyer_two {
+	border: solid 2px #000000;
+	background-color: #ff0000;
+	width: 100px;
+	height: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
 .left_cell_wrap {
 	border: solid 2px #000000;
 	background-color: #ff8040;
@@ -30,9 +48,27 @@ table {
 	vertical-align: middle;
 }
 
+.left_cell_wrap_used_player_one {
+	border: solid 2px #000000;
+	background-color: #ff00ff;
+	width: 10px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.left_cell_wrap_used_player_two {
+	border: solid 2px #000000;
+	background-color: #ff0000;
+	width: 10px;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;
+}
+
 .middle_cell {
 	border: solid 2px #000000;
-	background-color: #ff8040;
+	background-color: #000000;
 	width: 10px;
 	height: 10px;
 	text-align: center;
